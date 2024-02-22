@@ -142,18 +142,6 @@
       <a href="//localhost:1313/docs/references/">References</a>
     </li>
     
-    <li class="">
-      <a href="//localhost:1313/docs/install-theme/">Install Theme</a>
-    </li>
-    
-    <li class="">
-      <a href="//localhost:1313/docs/specimen/">Specimen</a>
-    </li>
-    
-    <li class="">
-      <a href="//localhost:1313/docs/configure/">Configuration</a>
-    </li>
-    
   </ul>
 </div>
 
@@ -167,7 +155,8 @@
 <summary><b>Table of contents</b></summary>  
 <p><a href="#result-visualization">Result visualization</a><br>
 <a href="#exporting-sequences">Exporting sequences</a><br>
-<a href="#biodiversity-indices">Biodiversity indices</a></p>
+<a href="#biodiversity-indices">Biodiversity indices</a><br>
+<a href="#displaying-reference-mappings">Displaying reference mappings</a></p>
 </details>
 <br>
 <h2 id="result-visualization">Result visualization</h2>
@@ -212,6 +201,27 @@
 <p><strong>Example:</strong> <code>Biodiversity indices</code> (<strong>bottom left</strong>) such as <code>ACE</code> or <code>Shannon</code> are computed for the currently selected visualization group.</p>
 <p><a href="#top">[Top]</a></p>
 <hr>
+<h2 id="displaying-reference-mappings">Displaying reference mappings</h2>
+<p>Aligning metagenome or metatranscriptome data to reference sequences of known origin allows researchers to evaluate the relative identity between metagenome sequences and the actual strain or to obtain an overview of gene expression within a metatranscriptome. MGX currently provides predefined pipelines employing <code>BLAST</code>  <a href="/docs/references/">Altschul et al., 1990</a>, <code>FR-HIT</code>  <a href="/docs/references/">Niu et al., 2011</a>, and <code>Bowtie 2</code>  <a href="/docs/references/">Langmead and Salzberg, 2012</a>.</p>
+<p>The reference <code>Mapping</code> component is provided to inspect and browse alignment results, offering both a generic alignment view where each mapped sequence is colored according to mapping identity as well as a fragment recruitment view. Switching between view modes is possible from the context menu of the <code>Mapping</code> component.</p>
+<center>
+<p><a href="images/screens/RefMapping.png"><img src="/images/screens/RefMapping.png" width="600"/></a></p>
+</center>
+<p>The reference mapping component shows alignment results for a metatranscriptome dataset mapped to the reference genome of one of the dominant organisms.</p>
+<p><strong>From top to bottom, the component displays:</strong></p>
+<ul>
+<li>Navigation and coverage histogram</li>
+<li>The currently selected interval</li>
+<li>Aligned DNA sequences for the interval</li>
+</ul>
+<blockquote>
+<p>Color coding refers to relative sequence identity.</p>
+</blockquote>
+<center>
+<p><a href="images/screens/FragRecruitment.png"><img src="/images/screens/FragRecruitment.png" width="600"/></a></p>
+</center>
+<p>An alternate visualization mode is the generation of fragment recruitment plots, showing the same data as above. The view mode features the fragment recruitment plot itself. Additionally, it provides stacked bars <code>summarizing mapping identity</code> within reference intervals, grouped into <code>low</code> (red), <code>medium</code> (yellow,  75%), and <code>high</code> (green,  97%) quality mappings.</p>
+<p><a href="#top">[Top]</a></p>
 
 </div>
 </div>

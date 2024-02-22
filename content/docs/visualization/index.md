@@ -11,6 +11,7 @@ weight: 7
 [Result visualization](#result-visualization)  
 [Exporting sequences](#exporting-sequences)  
 [Biodiversity indices](#biodiversity-indices)  
+[Displaying reference mappings](#displaying-reference-mappings)
 
 </details>
 
@@ -103,3 +104,35 @@ The `Visualization` module features another component used to display commonly u
 [[Top]](#top)
 
 ---
+
+## Displaying reference mappings
+
+Aligning metagenome or metatranscriptome data to reference sequences of known origin allows researchers to evaluate the relative identity between metagenome sequences and the actual strain or to obtain an overview of gene expression within a metatranscriptome. MGX currently provides predefined pipelines employing `BLAST`  <a href="/docs/references/">Altschul et al., 1990</a>, `FR-HIT`  <a href="/docs/references/">Niu et al., 2011</a>, and `Bowtie 2`  <a href="/docs/references/">Langmead and Salzberg, 2012</a>. 
+
+The reference `Mapping` component is provided to inspect and browse alignment results, offering both a generic alignment view where each mapped sequence is colored according to mapping identity as well as a fragment recruitment view. Switching between view modes is possible from the context menu of the `Mapping` component.
+
+<center>
+
+[<img src="/images/screens/RefMapping.png" width="600"/>](images/screens/RefMapping.png)
+
+</center>
+
+The reference mapping component shows alignment results for a metatranscriptome dataset mapped to the reference genome of one of the dominant organisms. 
+
+**From top to bottom, the component displays:**
+
+- Navigation and coverage histogram
+- The currently selected interval
+- Aligned DNA sequences for the interval
+
+> Color coding refers to relative sequence identity.
+
+<center>
+
+[<img src="/images/screens/FragRecruitment.png" width="600"/>](images/screens/FragRecruitment.png)
+
+</center>
+
+An alternate visualization mode is the generation of fragment recruitment plots, showing the same data as above. The view mode features the fragment recruitment plot itself. Additionally, it provides stacked bars `summarizing mapping identity` within reference intervals, grouped into `low` (red), `medium` (yellow,  75%), and `high` (green,  97%) quality mappings. 
+
+[[Top]](#top)

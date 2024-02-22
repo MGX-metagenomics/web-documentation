@@ -3,6 +3,9 @@ title: "Basics"
 date: 2024-02-21T16:29:29+01:00
 draft: false
 weight: 3
+summary: Obtaining a Project, MGX Roles, Metadata, Connecting to Server, Uploading own files, Importing reference genomes,Search
+
+
 ---
 
 <details open>
@@ -12,8 +15,9 @@ weight: 3
 [MGX Roles](#mgx-roles)  
 [Metadata](#metadata)  
 [Connecting to Server](#connecting-to-a-mgx-server)  
-[Uploading own files](#uploading-own-files)
-[Importing reference genomes](#importing-reference-genomes)
+[Uploading own files](#uploading-own-files)  
+[Importing reference genomes](#importing-reference-genomes)  
+[Search](#search)
 </details>
 
 <br>
@@ -155,3 +159,27 @@ iIn addition, users may choose to upload a custom reference sequence in FASTA, G
 Once the import is complete, the reference genome is available for analysis and can be selected for the corresponding analysis pipelines that provide reference mapping, e.g., `BowTie` or `FR-HIT`.
 
 [[Top]](#top)
+
+---
+
+## Search
+
+**Search:** Icon for the metagenome `Search` component.
+
+<center>
+
+[<img src="/images/screens/SearchOpen.png"  height="300" width="300" />](images/screens/SearchOpen.png)
+
+</center>
+
+### Example
+
+<center>
+
+[<img src="/images/screens/SearchTC.png"  height="600" width="700" />](images/screens/SearchTC.png)
+
+</center>
+
+`Search` component showing results for the term **polymeras**. The search was performed within the select metagenomes _simHC_ and _simLC_ (top left). 
+
+The bottom part shows an individual sequence identified by the search. Search results are displayed together with all other attributes available for sequences, thus allowing the identification of the co-occurrence of results.
