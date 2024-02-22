@@ -72,7 +72,7 @@ Afterwards, start the Designer application and define a new provider (Right-clic
 
 In order to design custom Conveyor workflows for later usage within the MGX platform, there are several constraints to be met which will be described in more detail.
 
-First of all, a dedicated GetMGXJob node has to be present within the workflow; in addition, this node has to be named `mgx`. During execution of a pipeline within MGX, this node is configured via an external configuration file, providing required information about a jobs context, like _e.g._ access to a project database and associated storage.
+First of all, a dedicated `GetMGXJob` node has to be present within the workflow; in addition, this node has to be named `mgx`. During execution of a pipeline within MGX, this node is configured via an external configuration file, providing required information about a jobs context, like _e.g._ access to a project database and associated storage.
 <center>
 
 [<img src="/images/screens/getjob.png"   width="200" />](images/screens/getjob.png)
