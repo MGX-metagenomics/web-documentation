@@ -62,7 +62,7 @@
       <link>//localhost:1313/docs/analysis/</link>
       <pubDate>Thu, 22 Feb 2024 13:50:25 +0100</pubDate>
       <guid>//localhost:1313/docs/analysis/</guid>
-      <description>Quality Control Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.</description>
+      <description>Quality Control Select a sequencing run object, the Quality Control component can be opened from its menubar icon (red circle).&#xA;Quality control reports generated within MGX should be inspected before proceding with data analysis.&#xA;MGX currently offers three types of QC reports:&#xA;Distribution of GC content sequence length nucleotide distribution within the DNA sequences Those can be used to evaluate overall sequence data quality and check for possible signs of contamination.</description>
     </item>
     <item>
       <title>Install Theme</title>

@@ -7,7 +7,6 @@ weight: 100
 
 ## Quality Control
 
-
 <center>
 
 [<img src="/images/screens/QCopen.png"  height="350" width="350" />](images/screens/QCopen.png)
@@ -65,3 +64,37 @@ While small amounts of _e.g._ adapter residue are sometimes encountered and migh
 [[Top]](#top)
 
 ---
+
+## Selecting an analysis pipeline
+
+<center>
+
+[<img src="/images/screens/analysiswiz1.png"  height="450" width="450" />](images/screens/analysiswiz1.png)
+
+</center>
+
+**Step 1:** Select analysis pipelines.
+
+> Analysis pipelines can be selected from the corresponding MGX project itself, from the repository of public pipelines provided by the server, or, a custom workflow can be uploaded and executed.
+
+All analysis pipelines can be started from the context menu of the metagenome dataset to be analyzed, provided the user has been granted at least `User` level access. First, the user can choose the desired pipeline from the project itself, from the pipeline repository hosted on the MGX server, or upload an own pipeline implementation.
+
+Subsequently, analysis parameters can be reviewed and adapted before submitting an analysis.
+
+<center>
+
+[<img src="/images/screens/analysiswiz2.png"  height="450" width="450" />](images/screens/analysiswiz2.png)
+
+</center>
+
+**Step 2:** Inspect and adapt parameters for the selected pipeline. The actual number of steps depends on the number of parameters available for customization.
+
+<center>
+
+[<img src="/images/screens/analysiswiz2.png"  height="450" width="450" />](images/screens/analysiswiz2.png)
+
+</center>
+
+**Step 3:** Before execution, a final overview of all parameters is shown. Once confirmed, the pipeline is submitted and scheduled for execution on the MGX server. 
+
+> Here, the selected pipeline has only one single parameter.
