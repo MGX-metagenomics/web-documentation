@@ -3,14 +3,13 @@ title: 'MGX metagenome analysis platform'
 date: 2018-11-28T15:14:39+10:00
 ---
 
-
 <div style="text-align: justify"> 
 
 ### Important Links
-- <a href="/docs/about/#citation">Citation</a>  
-- <a href="/docs/about/#demo">Demo Projects</a>  
-- <a href="/docs/basics/#obtaining-a-project">Project request</a>
 - <a href="/docs/install-mgx/">Installation</a>
+- <a href="/docs/basics/#obtaining-a-project">Project request</a>
+- <a href="/docs/about/#demo">Demo Projects</a> 
+- <a href="/docs/about/#citation">Citation</a>   
 
 
 ## News
