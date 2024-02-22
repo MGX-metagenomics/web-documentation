@@ -168,7 +168,8 @@
 <p><a href="#obtaining-a-mgx-project">Obtaining a Project</a><br>
 <a href="#mgx-roles">MGX Roles</a><br>
 <a href="#metadata">Metadata</a><br>
-<a href="#connecting-to-a-mgx-server">Connecting to Server</a></p>
+<a href="#connecting-to-a-mgx-server">Connecting to Server</a><br>
+<a href="#uploading-own-files">Uploading own files</a></p>
 </details>
 <br>
 <h2 id="obtaining-a-mgx-project">Obtaining a MGX project</h2>
@@ -235,6 +236,15 @@
 <p>Divided into four different sections, a <code>MGX project</code> offers (<em>from top to bottom</em>) dedicated storage for files to be used by analysis pipelines, managed reference sequences (<em>including annotation data, if available</em>) and general project data containing metadata as well as sequence datasets. An additional section provides access to <strong>metagenome</strong> and <strong>metatranscriptome</strong> assemblies.</p>
 <p>Each project contains metagenome datasets as well as <strong>structured storage</strong>, where user-provided databases can be uploaded to be used in custom analysis pipelines.</p>
 <p><a href="#top">[Top]</a></p>
+<hr>
+<h2 id="uploading-own-files">Uploading own files</h2>
+<p>For each project, MGX provides dedicated storage to allow users to provide custom data, which can subsequently be used with analysis pipelines. Thus, <code>own sequence collections</code> or hidden Markov models <code>HMM model</code> files for genes of interest can easily be uploaded and later included in analysis pipelines.</p>
+<center>
+<p><a href="images/screens/serverfs.png"><img src="/images/screens/serverfs.png"  height="300" width="300" /></a></p>
+</center>
+<p>Each project includes flat storage where custom data can be stored, e.g., own <code>FASTA</code> files to be used as reference databases for metagenome analysis.</p>
+<p>While it may be necessary to implement your own pipeline depending on the desired kind of analysis, the MGX repository hosts predefined pipeline templates addressing the most common cases.</p>
+<p>The <code>BestHit-Blast</code> template can be used to annotate metagenome sequences with the description of a Blast hit after the user has uploaded a <code>FASTA</code> file containing amino acid sequences, and the <code>BestHit-HMM</code> template provides the same functionality for <code>HMMs</code>.</p>
 
 </div>
 </div>

@@ -27,7 +27,7 @@
       <link>//localhost:1313/docs/basics/</link>
       <pubDate>Wed, 21 Feb 2024 16:29:29 +0100</pubDate>
       <guid>//localhost:1313/docs/basics/</guid>
-      <description>Table of contents Obtaining a Project&#xA;MGX Roles&#xA;Metadata&#xA;Connecting to Server&#xA;Obtaining a MGX project Currently, there is no way to automatically create new MGX projects. If you would like to analyze your metagenome or metatranscriptome data with MGX, please send a mail to the MGX team, which can be contacted at:&#xA;mgx@computational.bio.uni-giessen.de.&#xA;MGX projects and users are managed by the General Project Management System (GPMS) developed at CeBiTec (Bielefeld University), which provides Single Sign-On (SSO) for all our applications.</description>
+      <description>Table of contents Obtaining a Project&#xA;MGX Roles&#xA;Metadata&#xA;Connecting to Server&#xA;Uploading own files&#xA;Obtaining a MGX project Currently, there is no way to automatically create new MGX projects. If you would like to analyze your metagenome or metatranscriptome data with MGX, please send a mail to the MGX team, which can be contacted at:&#xA;mgx@computational.bio.uni-giessen.de.&#xA;MGX projects and users are managed by the General Project Management System (GPMS) developed at CeBiTec (Bielefeld University), which provides Single Sign-On (SSO) for all our applications.</description>
     </item>
     <item>
       <title>Projects</title>

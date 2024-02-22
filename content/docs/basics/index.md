@@ -11,8 +11,8 @@ weight: 3
 [Obtaining a Project](#obtaining-a-mgx-project)  
 [MGX Roles](#mgx-roles)  
 [Metadata](#metadata)  
-[Connecting to Server](#connecting-to-a-mgx-server) 
-
+[Connecting to Server](#connecting-to-a-mgx-server)  
+[Uploading own files](#uploading-own-files)
 </details>
 
 <br>
@@ -109,3 +109,21 @@ Divided into four different sections, a `MGX project` offers (_from top to botto
 Each project contains metagenome datasets as well as **structured storage**, where user-provided databases can be uploaded to be used in custom analysis pipelines.
 
 [[Top]](#top)
+
+---
+
+## Uploading own files
+
+For each project, MGX provides dedicated storage to allow users to provide custom data, which can subsequently be used with analysis pipelines. Thus, `own sequence collections` or hidden Markov models `HMM model` files for genes of interest can easily be uploaded and later included in analysis pipelines.
+
+<center>
+
+[<img src="/images/screens/serverfs.png"  height="300" width="300" />](images/screens/serverfs.png)
+
+</center>
+
+Each project includes flat storage where custom data can be stored, e.g., own `FASTA` files to be used as reference databases for metagenome analysis.
+
+While it may be necessary to implement your own pipeline depending on the desired kind of analysis, the MGX repository hosts predefined pipeline templates addressing the most common cases.
+
+ The `BestHit-Blast` template can be used to annotate metagenome sequences with the description of a Blast hit after the user has uploaded a `FASTA` file containing amino acid sequences, and the `BestHit-HMM` template provides the same functionality for `HMMs`.
