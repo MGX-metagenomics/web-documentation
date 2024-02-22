@@ -76,3 +76,15 @@ The `Sequence Export` wizard allows the export of sequences conditionally based 
 [[Top]](#top)
 
 ---
+
+## Biodiversity indices
+
+The `Visualization` module features another component used to display commonly used `biodiversity indices`, such as the `ACE`, `Shannon` <a href="/docs/references/">Spellerberg and Fedor, 2003</a>, `Chao1` <a href="/docs/references/">Hughes et al., 2002</a>, and `Simpson` <a href="/docs/references/">Simpson, 1949</a> indices. The component will automatically show the index values for the currently selected visualization group based on the chosen attribute type.
+
+<center>
+
+[<img src="/images/screens/BioDiversity.png" width="500"/>](images/screens/BioDiversity.png)
+
+</center>
+
+**Example:** `Biodiversity indices` (**bottom left**) such as `ACE` or `Shannon` are computed for the currently selected visualization group.
