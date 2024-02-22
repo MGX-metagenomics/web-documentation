@@ -118,6 +118,10 @@
       <a href="//localhost:1313/docs/projects/">Projects</a>
     </li>
     
+    <li class="active ">
+      <a href="//localhost:1313/docs/analysis/">Analysis</a>
+    </li>
+    
     <li class="">
       <a href="//localhost:1313/docs/costum_pipelines/">Costum Pipelines</a>
     </li>
@@ -128,10 +132,6 @@
     
     <li class="">
       <a href="//localhost:1313/docs/references/">References</a>
-    </li>
-    
-    <li class="active ">
-      <a href="//localhost:1313/docs/analysis/">Analysis</a>
     </li>
     
     <li class="">
@@ -155,7 +155,14 @@
           
 <h1 class="title">Analysis</h1>
 <div class="content ">
-  <h2 id="quality-control">Quality Control</h2>
+  <details open>
+<summary><b>Table of contents</b></summary>  
+<p><a href="#quality-control">Quality</a><br>
+<a href="#quality-control">Selecting a analysis pipeline</a><br>
+<a href="#monitoring-job-progress">Job Monitoring</a></p>
+</details>
+<br>
+<h2 id="quality-control">Quality Control</h2>
 <center>
 <p><a href="images/screens/QCopen.png"><img src="/images/screens/QCopen.png"  height="350" width="350" /></a></p>
 </center>
@@ -215,6 +222,20 @@ Here the sequencing data was imported without prior quality trimming.</p>
 <blockquote>
 <p>Here, the selected pipeline has only one single parameter.</p>
 </blockquote>
+<p><a href="#top">[Top]</a></p>
+<hr>
+<h2 id="monitoring-job-progress">Monitoring job progress</h2>
+<p>The <code>Job Monitor</code> component is provided to inspect the state of jobs present within a MGX project. It can be opened from the toolbar and will display the state of jobs scheduled for execution, currently running or already finished.</p>
+<center>
+<p><a href="images/screens/JobMonOpen.png"><img src="/images/screens/JobMonOpen.png"  height="350" width="350" /></a></p>
+</center>
+<p>The <code>Job Monitor</code> component can be opened using its icon in the toolbar.</p>
+<center>
+<p><a href="images/screens/JobMon.png"><img src="/images/screens/JobMon.png"  height="350" width="350" /></a></p>
+</center>
+<p>The <code>Job Monitor</code> provides an overview of job states. Depending on context, all jobs within a MGX project or only jobs for a single dataset will be displayed.</p>
+<p>In addition, it can also be used to delete jobs and corresponding analysis results when no longer needed. Depending on the selected item in the <code>Project Explorer</code>, the <code>Job Monitor</code> will by default display all jobs within a project; if a single sequencing run is selected, only jobs for this dataset will be shown.</p>
+<p><a href="#top">[Top]</a></p>
 
 </div>
 </div>

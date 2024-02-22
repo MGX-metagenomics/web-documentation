@@ -2,8 +2,19 @@
 title: "Analysis"
 date: 2024-02-22T13:50:25+01:00
 draft: false
-weight: 100
+weight: 5
 ---
+
+<details open>
+<summary><b>Table of contents</b></summary>  
+
+[Quality](#quality-control)  
+[Selecting a analysis pipeline](#quality-control)  
+[Job Monitoring](#monitoring-job-progress)  
+
+</details>
+
+<br>
 
 ## Quality Control
 
@@ -98,3 +109,32 @@ Subsequently, analysis parameters can be reviewed and adapted before submitting 
 **Step 3:** Before execution, a final overview of all parameters is shown. Once confirmed, the pipeline is submitted and scheduled for execution on the MGX server. 
 
 > Here, the selected pipeline has only one single parameter.
+
+[[Top]](#top)
+
+---
+
+## Monitoring job progress
+
+The `Job Monitor` component is provided to inspect the state of jobs present within a MGX project. It can be opened from the toolbar and will display the state of jobs scheduled for execution, currently running or already finished. 
+
+<center>
+
+[<img src="/images/screens/JobMonOpen.png"  height="350" width="350" />](images/screens/JobMonOpen.png)
+
+</center>
+
+The `Job Monitor` component can be opened using its icon in the toolbar.
+
+<center>
+
+[<img src="/images/screens/JobMon.png"  height="350" width="350" />](images/screens/JobMon.png)
+
+</center>
+
+The `Job Monitor` provides an overview of job states. Depending on context, all jobs within a MGX project or only jobs for a single dataset will be displayed.
+
+
+In addition, it can also be used to delete jobs and corresponding analysis results when no longer needed. Depending on the selected item in the `Project Explorer`, the `Job Monitor` will by default display all jobs within a project; if a single sequencing run is selected, only jobs for this dataset will be shown.
+
+[[Top]](#top)
