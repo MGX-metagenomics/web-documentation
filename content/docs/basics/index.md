@@ -13,6 +13,7 @@ weight: 3
 [Metadata](#metadata)  
 [Connecting to Server](#connecting-to-a-mgx-server)  
 [Uploading own files](#uploading-own-files)
+[Importing reference genomes](#importing-reference-genomes)
 </details>
 
 <br>
@@ -127,3 +128,30 @@ Each project includes flat storage where custom data can be stored, e.g., own `F
 While it may be necessary to implement your own pipeline depending on the desired kind of analysis, the MGX repository hosts predefined pipeline templates addressing the most common cases.
 
  The `BestHit-Blast` template can be used to annotate metagenome sequences with the description of a Blast hit after the user has uploaded a `FASTA` file containing amino acid sequences, and the `BestHit-HMM` template provides the same functionality for `HMMs`.
+
+[[Top]](#top)
+
+---
+
+## Importing reference genomes
+
+MGX provides several analysis pipelines to align metagenome reads to reference genomes. Before these pipelines can be used, the `corresponding reference genome` has to be added to the project. There are **two possible ways** to achieve this: 
+
+- MGX repository hosts published reference sequences
+- Annotated reference genomes obtained from the NCBI
+
+iIn addition, users may choose to upload a custom reference sequence in FASTA, GenBank, or EMBL format, e.g., a finished but unpublished genome not available from official sources.
+
+<center>
+
+[<img src="/images/screens/addReference.png"  height="400" width="400" />](images/screens/addReference.png)
+
+</center>
+
+**Import:**  Reference sequences for mapping targets may be imported from the global repository or uploaded in EMBL/GenBank/FASTA format.
+
+**To add a reference genome:** right-click on the `Reference sequences` node within the project view and select either `Add reference` to access the MGX repository or `Upload EMBL/GenBank/FASTA reference` to provide your own sequence.
+
+Once the import is complete, the reference genome is available for analysis and can be selected for the corresponding analysis pipelines that provide reference mapping, e.g., `BowTie` or `FR-HIT`.
+
+[[Top]](#top)

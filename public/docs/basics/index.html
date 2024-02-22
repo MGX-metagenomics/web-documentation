@@ -169,7 +169,8 @@
 <a href="#mgx-roles">MGX Roles</a><br>
 <a href="#metadata">Metadata</a><br>
 <a href="#connecting-to-a-mgx-server">Connecting to Server</a><br>
-<a href="#uploading-own-files">Uploading own files</a></p>
+<a href="#uploading-own-files">Uploading own files</a>
+<a href="#importing-reference-genomes">Importing reference genomes</a></p>
 </details>
 <br>
 <h2 id="obtaining-a-mgx-project">Obtaining a MGX project</h2>
@@ -245,6 +246,22 @@
 <p>Each project includes flat storage where custom data can be stored, e.g., own <code>FASTA</code> files to be used as reference databases for metagenome analysis.</p>
 <p>While it may be necessary to implement your own pipeline depending on the desired kind of analysis, the MGX repository hosts predefined pipeline templates addressing the most common cases.</p>
 <p>The <code>BestHit-Blast</code> template can be used to annotate metagenome sequences with the description of a Blast hit after the user has uploaded a <code>FASTA</code> file containing amino acid sequences, and the <code>BestHit-HMM</code> template provides the same functionality for <code>HMMs</code>.</p>
+<p><a href="#top">[Top]</a></p>
+<hr>
+<h2 id="importing-reference-genomes">Importing reference genomes</h2>
+<p>MGX provides several analysis pipelines to align metagenome reads to reference genomes. Before these pipelines can be used, the <code>corresponding reference genome</code> has to be added to the project. There are <strong>two possible ways</strong> to achieve this:</p>
+<ul>
+<li>MGX repository hosts published reference sequences</li>
+<li>Annotated reference genomes obtained from the NCBI</li>
+</ul>
+<p>iIn addition, users may choose to upload a custom reference sequence in FASTA, GenBank, or EMBL format, e.g., a finished but unpublished genome not available from official sources.</p>
+<center>
+<p><a href="images/screens/addReference.png"><img src="/images/screens/addReference.png"  height="400" width="400" /></a></p>
+</center>
+<p><strong>Import:</strong>  Reference sequences for mapping targets may be imported from the global repository or uploaded in EMBL/GenBank/FASTA format.</p>
+<p><strong>To add a reference genome:</strong> right-click on the <code>Reference sequences</code> node within the project view and select either <code>Add reference</code> to access the MGX repository or <code>Upload EMBL/GenBank/FASTA reference</code> to provide your own sequence.</p>
+<p>Once the import is complete, the reference genome is available for analysis and can be selected for the corresponding analysis pipelines that provide reference mapping, e.g., <code>BowTie</code> or <code>FR-HIT</code>.</p>
+<p><a href="#top">[Top]</a></p>
 
 </div>
 </div>
