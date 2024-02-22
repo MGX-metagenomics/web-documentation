@@ -37,4 +37,25 @@ At the same time, `MGX` allows to include own data sources and devise custom ana
 > - Sequence export
 > - Custom pipeline support
 
+## Citation
+
+_MGX 2.0: Shotgun- and assembly-based metagenome and metatranscriptome analysis from a single source_
+Sebastian Jaenicke, Sonja Diedrich, and Alexander Goesmann
+bioRxiv 2023.09.21.558800
+DOI: [10.1101/2023.09.21.558800](https://www.biorxiv.org/content/10.1101/2023.09.21.558800v1)
+
+_Flexible metagenome analysis using the MGX framework_
+Sebastian Jaenicke, Stefan P. Albaum, Patrick Blumenkamp, Burkhard Linke, Jens Stoye and Alexander Goesmann
+Microbiome 2018 6:76
+DOI: [10.1186/s40168-018-0460-1](https://doi.org/10.1186/s40168-018-0460-1)
+
+## Demo
+If you want to try out MGX 2.0, we offer two public demonstration projects:
+
+> `MGX2_Demo` contains sequence data from the black band disease study previously [published](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5240343/) by Sato et al. that was used as a demonstration example in the upcoming MGX 2.0 publication; ENA project accession [PRJNA321354](https://www.ebi.ac.uk/ena/browser/view/PRJNA321354). 
+
+> `MGX2_TermiteGut` with metagenome and metatranscriptome date from the well-known termite gut study; ENA project accession [PRJNA454696](https://www.ebi.ac.uk/ena/browser/view/PRJNA454696).
+
+To access these example projects, download the MGX 2.0 application and log in with username `mgxdemo` and password `mgxdemo`. Please note that only read access is permitted here, _i.e._ you can explore all precomputed results and inspect the assemblies, but wont be able to initiate new analyses or delete existing data.
+
 ![Not so big](/images/slides/3.png)

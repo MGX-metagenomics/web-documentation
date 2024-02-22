@@ -51,13 +51,6 @@
       <description>Assembling a metagenome or metatranscriptome Since MGX 2.0, we support the assembly and analysis of both metagenomes and metatranscriptomes; for this, we provide workflows targeting QC, (co-)assembly, gene prediction, taxonomic binning, completeness assessment, and abundance quantification.&#xA;For metatranscriptomes, an additional step is implemented for the removal of ribosomal RNA sequences prior to the assembly, and binning is not performed.&#xA;To create an assembly, select all sequencing runs that should be co-assembled within the Project Explorer window and select the Assemble entry from the context menu.</description>
     </item>
     <item>
-      <title>Hugo Whisper</title>
-      <link>//localhost:1313/docs/example/</link>
-      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
-      <guid>//localhost:1313/docs/example/</guid>
-      <description>&lt;p&gt;Whisper is a minimal documentation theme built for Hugo. The design &amp;amp; functionality is intentionally minimal.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Visualization</title>
       <link>//localhost:1313/docs/visualization/</link>
       <pubDate>Thu, 22 Feb 2024 14:43:08 +0100</pubDate>

@@ -183,3 +183,5 @@ Once the import is complete, the reference genome is available for analysis and 
 `Search` component showing results for the term **polymeras**. The search was performed within the select metagenomes _simHC_ and _simLC_ (top left). 
 
 The bottom part shows an individual sequence identified by the search. Search results are displayed together with all other attributes available for sequences, thus allowing the identification of the co-occurrence of results.
+
+[[Top]](#top)

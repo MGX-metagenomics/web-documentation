@@ -28,6 +28,8 @@ The habitat wizard allows to define new habitats specifying their location, name
 
 <br>
 
+[[Top]](#top)
+
 ---
 
 ## Creating new samples and DNA extracts
@@ -73,6 +75,8 @@ Samples and DNA extracts are created in the same way as habitats, except that sa
 - Amplicon: Primer names and corresponding target gene (fragment)  
 - Metatranscriptome: Select type of ribosomal RNA depletion methods 
 
+[[Top]](#top)
+
 ---
 
 ## Importing sequence data 
@@ -104,3 +108,5 @@ Give the large number of different sequencing adapters and barcoding schemes, MG
 > - FASTA
 > - FASTQ
 > - SFF
+
+[[Top]](#top)
