@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.css",
-	"sourceRoot": "/Users/yuki/Desktop/mgx_docu/docu",
+	"sourceRoot": "/Users/yuki/Desktop/mgx_docu/web-documentation",
 	"sources": [
 		"themes/hugo-whisper-theme/assets/scss/style.scss",
 		"themes/hugo-whisper-theme/assets/scss/_bootstrap-variables.scss",
