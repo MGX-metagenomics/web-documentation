@@ -56,3 +56,23 @@ This scenario will occur when a tool is executed **several times** with differen
 [[Top]](#top)
 
 ---
+
+## Exporting sequences
+
+
+Sequences can be exported for each group individually. The user can freely choose which attributes should be included.
+
+The `Sequence Export` wizard allows the export of sequences conditionally based on analysis results. For each visualization group, it is possible to choose the attributes for which sequences should be obtained. Sequences are downloaded from the `MGX server` and saved in `FASTA` format files for each group.
+
+
+<center>
+
+[<img src="/images/screens/SeqExport.png" width="500"/>](images/screens/SeqExport.png)
+
+</center>
+
+**Start:** Click icon (red circle) at menu.
+
+[[Top]](#top)
+
+---
