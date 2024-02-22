@@ -1,5 +1,5 @@
 ---
-title: "Costum Pipelines"
+title: "Custom Pipelines"
 date: 2024-02-21T13:22:16+01:00
 draft: false
 weight: 7
