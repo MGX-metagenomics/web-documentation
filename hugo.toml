@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://mgx-metagenomics.github.io/"
 theme = "hugo-whisper-theme"
 languageCode = "en-us"
 title = "MGX metagenome analysis platform"
@@ -43,19 +43,19 @@ summaryLength = 30
   homepage_button_text = 'Read The Docs'
   button_link='/docs/about/'
   button_text = 'About'
-  homepage_intro = 'Whisper is a documentation theme built with Hugo. The design and functionality is intentionally minimal.'
+  homepage_intro = 'MGX metagenome analysis platform'
   homepage_image = '/images/slides/1.png'
 
   ## You can enable to add anchor links to header elements
   # enable_anchor_link = true
 
   [params.homepage_meta_tags]
-    meta_description = "Hugo Whisper is a documentation theme built with Hugo."
+    meta_description = "MGX metagenome analysis platform"
     meta_og_title = "MGX metagenome analysis platform"
     meta_og_type = "website"
-    meta_og_url = "https://hugo-whisper.netlify.app"
-    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
-    meta_og_description = "Hugo Whisper is a documentation theme built with Hugo."
+    meta_og_url = "https://github.com/MGX-metagenomics"
+    meta_og_image = "/images/mgx_logo_crapola.svg"
+    meta_og_description = "MGX metagenome analysis platform"
     #meta_twitter_card = "summary"
     #meta_twitter_site = "@zerostaticio"
     #meta_twitter_creator = "@zerostaticio"
@@ -65,7 +65,7 @@ summaryLength = 30
       standard  = "/images/mgx_logo_crapola.svg"
 
   [params.footer]
-    copyright_text = 'MGX by <a class="MGX" href="https://github.com/MGX-metagenomics">MGX</a>'
+    copyright_text = '<a class="MGX" href="https://github.com/MGX-metagenomics">MGX</a>'
 
   [markup.goldmark.renderer]
     unsafe= true
