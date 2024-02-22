@@ -2,8 +2,19 @@
 title: "Visualization"
 date: 2024-02-22T14:43:08+01:00
 draft: false
-weight: 100
+weight: 7
 ---
+
+<details open>
+<summary><b>Table of contents</b></summary>  
+
+[Result visualization](#result-visualization)  
+[Exporting sequences](#exporting-sequences)  
+[Biodiversity indices](#biodiversity-indices)  
+
+</details>
+
+<br>
 
 ## Result visualization
 
@@ -88,3 +99,7 @@ The `Visualization` module features another component used to display commonly u
 </center>
 
 **Example:** `Biodiversity indices` (**bottom left**) such as `ACE` or `Shannon` are computed for the currently selected visualization group.
+
+[[Top]](#top)
+
+---
