@@ -42,4 +42,8 @@ The network communication protocol used by the MGX framework has been heavily op
 
 We regularly publish new releases of the MGX client application, which are available for download at [MGX Release](https://github.com/MGX-metagenomics/MGX-gui/releases).
 
+The MGX application is provided as a platform-independent `.zip archive`.
+
 An installation isn't necessary, just unzip the file and start the software from the bin/ subdirectory (**Linux:** `mgx_gui`; **Windows:** `mgx_gui64.exe`). Please check whether an updated version is available before reporting bugs.
+
+If you are a previous user of MGX 1.0, make sure to download the latest MGX-(date).zip file; for MGX 2.0, all releases are prefixed with MGX2 followed by a timestamp.
