@@ -4,19 +4,33 @@ date: 2024-02-21T12:07:18+01:00
 weight: 1
 ---
 
+<details open>
+<summary><b>Table of contents</b></summary>  
+
+[About](#about)  
+[Features](#features)  
+[Citation](#citation)  
+[Demo](#demo)  
+[Funding](#funding)  
+[Additional links](#additional-links)
+
+</details>
+
+
 ## About
 
 <div style="text-align: justify">
 
-The characterization of microbial communities based on sequencing and analysis of their genetic information has become a popular approach also referred to as metagenomics; in particular, the recent advances in sequencing technologies have enabled researchers to study even the most complex communities.  
+The characterization of microbial communities based on sequencing and analysis of their genetic information, also referred to as metagenomics, has become a popular approach; in particular, the recent advances in sequencing technologies have enabled researchers to study even the most complex communities.  
 
-Metagenome analysis, the assignment of sequences to taxonomic and functional entities, however, remains a tedious task: large amounts of data need to be processed. There are a number of approaches addressing particular aspects, but scientific questions are often too specific to be answered by a general-purpose method.
+Metagenome analysis, the assignment of sequences to taxonomic and functional entities, however, remains a tedious task: large amounts of data need to be processed. Several approaches address particular aspects, but scientific questions are often too specific to be answered by a general-purpose method.
 
 We present `MGX`, a flexible and extensible `client/server-framework` for the management and analysis of metagenomic datasets. `MGX` features a comprehensive set of adaptable workflows required for taxonomic and functional metagenome analysis, combined with an intuitive and easy-to-use graphical user interface offering customizable result visualizations.
 
-At the same time, `MGX` allows to include own data sources and devise custom analysis pipelines, thus enabling researchers to perform basic as well as highly specific analyses within a single application. With `MGX`, we provide a novel metagenome analysis platform giving researchers access to the most recent analysis tools. 
+At the same time, `MGX` allows to include own data sources and devise custom analysis pipelines, thus enabling researchers to perform basic as well as highly specific analyses within a single application. With `MGX`, we provide a novel metagenome analysis platform that gives researchers access to the most recent analysis tools. 
 
-`MGX` covers taxonomic and functional metagenome analysis, statistical evaluation and a wide range of visualizations easing data interpretation. Its default taxonomic classification pipeline provides equivalent or superior results in comparison to existing tools.
+`MGX` covers taxonomic and functional metagenome analysis, statistical evaluation, and a wide range of visualizations easing data interpretation. Its default taxonomic classification pipeline provides equivalent or superior results compared to existing tools.
+
 </div>
 
 <br>
@@ -70,5 +84,16 @@ To access these example projects, download the MGX 2.0 application and log in wi
 
 
 Funding for the operation and maintenance of MGX is provided by the [German Federal Ministry of Education and Research (BMBF)](https://www.bmbf.de/) project [Bielefeld-Gießen Center for Microbial Bioinformatics - BiGi](https://www.denbi.de/bigi) (grant 031A533) within the German Network for Bioinformatics Infrastructure [de.NBI](https://www.denbi.de/).
+
+---
+
+## Additional links
+
+- Synthetic metagenomes used in the MGX manuscript are available from [Zenodo](https://doi.org/10.5281/zenodo.4382271)
+- [Bioinformatics and Systems Biology at JLU Giessen](https://www.computational.bio.uni-giessen.de/)
+- [Data privacy statement](https://www.uni-giessen.de/fbz/fb08/Inst/bioinformatik/bcf/data-privacy)
+- [de.NBI - German network for bioinformatics infrastructure](https://www.denbi.de/)
+- [KEGG copyright request](https://www.kegg.jp/feedback/copyright.html) _needed if you want to publish a KEGG pathway map created within MGX_
+
 
 ![Not so big](/images/slides/3.png)

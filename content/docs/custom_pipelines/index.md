@@ -40,6 +40,8 @@ As Conveyor is actively developed and new tools are continously integrated, givi
 
 > **http://www.uni-giessen.de/fbz/fb08/Inst/bioinformatik/software/Conveyor**
 
+[[Top]](#top)
+
 ---
 
 ## Getting started
@@ -74,17 +76,17 @@ Starting with an empty sheet, nodes can be dragged from the list of all availabl
 ---
 
 ## Workflow requirements
+To design custom Conveyor workflows for later usage within the MGX platform, several constraints must be met, which will be described in more detail.
 
-In order to design custom Conveyor workflows for later usage within the MGX platform, there are several constraints to be met which will be described in more detail.
+First of all, a dedicated `GetMGXJob` node must be present within the workflow; in addition, this node has to be named `mgx`. During the execution of a pipeline within MGX, this node is configured via an external configuration file, providing required information about the context of a job, _, e.g.,_ access to a project database and associated storage.
 
-First of all, a dedicated `GetMGXJob` node has to be present within the workflow; in addition, this node has to be named `mgx`. During execution of a pipeline within MGX, this node is configured via an external configuration file, providing required information about a jobs context, like _e.g._ access to a project database and associated storage.
 <center>
 
 [<img src="/images/screens/getjob.png"   width="200" />](images/screens/getjob.png)
 
 </center>
 
-_The_ `GetMGXJob` _node provides necessary context for executing a workflow within MGX, such as database access. By convention, this node has to be named_ `mgx`.
+The `GetMGXJob` node provides the necessary context for executing a workflow within MGX, such as database access. By convention, this node has to be named `mgx`.
 
 Access to metagenome DNA sequences is provided via the `ReadCSF` node, which will provide all metagenome sequences for a sequencing run object within MGX, except those for which the “discard” flag has already been set. As pipelines are always executed for one single analysis job, this node needs to be connected to the `GetMGXJob` node. 
 
@@ -94,7 +96,7 @@ Access to metagenome DNA sequences is provided via the `ReadCSF` node, which wil
 
 </center>
 
-The `ReadCSF` node is used to obtained metagenome sequence data from within MGX; it has one input and needs to be connected to the `GetMGXJob` node.
+The `ReadCSF` node obtains metagenome sequence data from within MGX; it has one input and needs to be connected to the `GetMGXJob` node.
 
 Figure (below) shows a minimal example of a Conveyor-based pipeline for use within the MGX framework. Once executed, the pipeline would set the _**discard**_ flag for all sequences.
 
