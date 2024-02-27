@@ -3,6 +3,7 @@ title: "Visualization"
 date: 2024-02-22T14:43:08+01:00
 draft: false
 weight: 7
+summary: How to visualize the results, export sequences, get biodiversity indices and display reference mappings.
 ---
 
 <details open>

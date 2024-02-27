@@ -2,7 +2,9 @@
 title: 'About'
 date: 2024-02-21T12:07:18+01:00
 weight: 1
+summary: General informations about features, how to cite, demo projects, funding and additional links.
 ---
+
 
 <details open>
 <summary><b>Table of contents</b></summary>  
@@ -15,7 +17,7 @@ weight: 1
 [Additional links](#additional-links)
 
 </details>
-
+[[Overview]](/docs)
 
 ## About
 

@@ -3,7 +3,7 @@ title: "Basics"
 date: 2024-02-21T16:29:29+01:00
 draft: false
 weight: 3
-summary: Obtaining a Project, MGX Roles, Metadata, Connecting to Server, Uploading own files, Importing reference genomes,Search
+summary: Obtaining a Project, MGX Roles, metadata, Connect to a server, uploading own files, importing reference genomes and search.
 
 
 ---

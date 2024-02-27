@@ -3,6 +3,7 @@ title: "Assembly"
 date: 2024-02-22T14:38:10+01:00
 draft: false
 weight: 6
+summary: How to assemble a metagenome or metatranscriptome.
 ---
 
 ## Assembling a metagenome or metatranscriptome

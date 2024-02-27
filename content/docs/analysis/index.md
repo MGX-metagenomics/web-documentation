@@ -3,12 +3,13 @@ title: "Analysis"
 date: 2024-02-22T13:50:25+01:00
 draft: false
 weight: 5
+summary: How to perform quality control, select a analysis pipeline and monitor the selected jobs.
 ---
 
 <details open>
 <summary><b>Table of contents</b></summary>  
 
-[Quality](#quality-control)  
+[Quality Control](#quality-control)  
 [Selecting a analysis pipeline](#quality-control)  
 [Job Monitoring](#monitoring-job-progress)  
 
