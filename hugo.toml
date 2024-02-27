@@ -65,7 +65,7 @@ summaryLength = 30
       standard  = "/images/mgx_logo_crapola.svg"
 
   [params.footer]
-    copyright_text = '<a class="MGX" href="https://github.com/MGX-metagenomics">MGX</a>'
+    copyright_text = '<a class="MGX" href="mgx@computational.bio.uni-giessen.de">Support</a>'
 
   [markup.goldmark.renderer]
     unsafe= true

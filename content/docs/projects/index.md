@@ -6,6 +6,15 @@ weight: 4
 summary: Handling a Project by creating a new habitat, creating new samples and DNA extracts and how to import sequence data
 ---
 
+<details open>
+<summary><b>Table of contents</b></summary>  
+
+[Creating a new habitat](#creating-a-new-habitat)  
+[Creating new samples and DNA extracts](#creating-new-samples-and-dna-extracts)  
+[Importing sequence data](#importing-sequence-data)  
+
+</details>
+
 ## Creating a new habitat
 
 New habitats are defined choosing `Add habitat`  from the context menu of the `Project Data` node. This will bring up a wizard allowing to select the corresponding geographical location as well as specifying a habitats name and biome type. In a second step, an optional description for this habitat may be entered, as well.

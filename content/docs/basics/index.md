@@ -11,7 +11,7 @@ summary: Obtaining a Project, MGX Roles, Metadata, Connecting to Server, Uploadi
 <details open>
 <summary><b>Table of contents</b></summary>  
 
-[Obtaining a Project](#obtaining-a-mgx-project)  
+[Obtaining a MGX Project](#obtaining-a-mgx-project)  
 [MGX Roles](#mgx-roles)  
 [Metadata](#metadata)  
 [Connecting to Server](#connecting-to-a-mgx-server)  

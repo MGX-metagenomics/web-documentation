@@ -5,6 +5,15 @@ weight: 2
 summary: Needed prerequisites, Java JDK Version 17, Supported operating systems and obtaining MGX.
 ---
 
+<details open>
+<summary><b>Table of contents</b></summary>  
+
+[Obtaining MGX](#obtaining-mgx)  
+[Prerequisites](#prerequisites)  
+[Details](#Details)  
+
+</details>
+
 
 ## Obtaining MGX
 
