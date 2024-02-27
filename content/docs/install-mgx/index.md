@@ -5,6 +5,19 @@ weight: 2
 summary: Needed prerequisites, Java JDK Version 17, Supported operating systems and obtaining MGX.
 ---
 
+
+## Obtaining MGX
+
+We regularly publish new releases of the MGX client application, which are available for download at [MGX Release](https://github.com/MGX-metagenomics/MGX-gui/releases).
+
+The MGX application is provided as a platform-independent `.zip archive`.
+
+An installation isn't necessary, just unzip the file and start the software from the bin/ subdirectory (**Linux:** `mgx_gui`; **Windows:** `mgx_gui64.exe`). Please check whether an updated version is available before reporting bugs.
+
+If you are a previous user of MGX 1.0, make sure to download the latest `MGX-(date).zip` file; for MGX 2.0, all releases are prefixed with MGX2 followed by a timestamp.
+
+---
+
 ## Prerequisites
 
 MGX is a client/server application based on the Netbeans Platform and implemented in Java. To run the MGX 2.0 client application, the following dependencies have to be met:
@@ -37,13 +50,3 @@ The MGX application is developed and regularly used on Unix-based systems, _e.g.
 ### Internet connection
 
 The network communication protocol used by the MGX framework has been heavily optimized to allow usage even with low-throughput connections. Thus, typical usage of the application like visualization of analysis results does not require a lot of bandwidth, although overall performance may suffer with high-latency or low-bandwidth connections. However, as sequence datasets obtained by metagenome and metatranscriptome sequencing tend to be quite large, a broadband connection is recommended at least for initial data upload to the MGX server or when exporting sequence data from a MGX project.
-
-### Obtaining MGX
-
-We regularly publish new releases of the MGX client application, which are available for download at [MGX Release](https://github.com/MGX-metagenomics/MGX-gui/releases).
-
-The MGX application is provided as a platform-independent `.zip archive`.
-
-An installation isn't necessary, just unzip the file and start the software from the bin/ subdirectory (**Linux:** `mgx_gui`; **Windows:** `mgx_gui64.exe`). Please check whether an updated version is available before reporting bugs.
-
-If you are a previous user of MGX 1.0, make sure to download the latest MGX-(date).zip file; for MGX 2.0, all releases are prefixed with MGX2 followed by a timestamp.
