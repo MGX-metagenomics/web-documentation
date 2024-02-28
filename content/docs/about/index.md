@@ -17,7 +17,6 @@ summary: General informations about features, how to cite, demo projects, fundin
 [Additional links](#additional-links)
 
 </details>
-[[Overview]](/docs)
 
 ## About
 
